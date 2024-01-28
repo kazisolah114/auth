@@ -10,7 +10,7 @@ const app = express();
 require('dotenv').config()
 // app.options('*', cors(corsOptions));
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://jwt-auth2.vercel.app'],
+    origin: ['http://localhost:3000', 'https://auth-neon-kappa.vercel.app'],
     credentials: true,
 }
 app.use(cors(corsOptions));
